@@ -46,7 +46,7 @@ WATSONX_PROJECT_ID = os.getenv("WATSONX_PROJECT_ID", "skills-network")
 WATSONX_APIKEY = os.getenv("WATSONX_APIKEY")  # not needed in the Skills Network lab
 
 LLM_MODEL_ID = os.getenv("WATSONX_LLM_MODEL_ID", "ibm/granite-4-h-small")
-EMBEDDING_MODEL_ID = os.getenv("WATSONX_EMBEDDING_MODEL_ID", "ibm/slate-125m-english-rtrvr")
+EMBEDDING_MODEL_ID = os.getenv("WATSONX_EMBEDDING_MODEL_ID", "ibm/slate-125m-english-rtrvr-v2")
 
 
 def _credentials():
