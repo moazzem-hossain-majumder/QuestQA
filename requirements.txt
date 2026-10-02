@@ -1,0 +1,10 @@
+gradio>=4.44,<6
+ibm-watsonx-ai>=1.1
+langchain>=0.3,<0.4
+langchain-community>=0.3,<0.4
+langchain-ibm>=0.3,<0.4
+chromadb>=0.5
+pypdf>=4.0
+python-dotenv>=1.0
+pytest>=8.0
+reportlab>=4.0
